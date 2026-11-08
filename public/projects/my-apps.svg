@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="My Apps project preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0a14"/>
+      <stop offset="1" stop-color="#07070b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="browser">
+      <rect x="70" y="70" width="1060" height="610" rx="26"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="180" cy="140" r="300" fill="url(#glow)"/>
+  <circle cx="1040" cy="660" r="260" fill="#22d3ee" fill-opacity="0.06"/>
+  <rect x="70" y="70" width="1060" height="610" rx="26" fill="#0b0a11" stroke="#2b2640" stroke-width="1.5"/>
+  <g clip-path="url(#browser)">
+    <rect x="70" y="70" width="1060" height="58" fill="#120f1c"/>
+    <line x1="70" y1="128" x2="1130" y2="128" stroke="#241f38"/>
+    <circle cx="108" cy="99" r="6" fill="#f87171" fill-opacity="0.8"/>
+    <circle cx="132" cy="99" r="6" fill="#fbbf24" fill-opacity="0.8"/>
+    <circle cx="156" cy="99" r="6" fill="#34d399" fill-opacity="0.8"/>
+    <rect x="200" y="85" width="330" height="28" rx="14" fill="#1b1729"/>
+    <text x="220" y="104" font-family="ui-monospace, monospace" font-size="13" fill="#9c94bd">myapps.dev</text>
+
+    <rect x="112" y="164" width="36" height="36" rx="10" fill="url(#accent)"/>
+    <text x="160" y="189" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="600" fill="#f4f2fb">My Apps</text>
+
+    <rect x="400" y="170" width="360" height="30" rx="15" fill="#151222" stroke="#2b2640"/>
+    <circle cx="422" cy="185" r="6" fill="none" stroke="#6f678f" stroke-width="2"/>
+    <line x1="427" y1="190" x2="432" y2="195" stroke="#6f678f" stroke-width="2" stroke-linecap="round"/>
+    <text x="446" y="190" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#6f678f">Search apps</text>
+
+    <circle cx="1064" cy="185" r="15" fill="#1b1729" stroke="#2b2640"/>
+    <circle cx="1064" cy="180" r="4.5" fill="#a78bfa"/>
+    <path d="M1055 193c2-4 5-6 9-6s7 2 9 6" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+
+    <text x="112" y="268" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2" fill="#7a7296">YOUR APPS</text>
+
+    <g>
+      <rect x="112" y="292" width="300" height="168" rx="16" fill="#12101b" stroke="#2b2640"/>
+      <rect x="136" y="316" width="40" height="40" rx="11" fill="#2a1f4d"/>
+      <rect x="146" y="326" width="20" height="20" rx="3" fill="none" stroke="#a78bfa" stroke-width="2"/>
+      <line x1="150" y1="333" x2="162" y2="333" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+      <line x1="150" y1="339" x2="162" y2="339" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+      <text x="136" y="388" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#e9e6f5">Student Grade Tracker</text>
+      <rect x="136" y="402" width="170" height="9" rx="4.5" fill="#2b2640"/>
+      <rect x="136" y="420" width="130" height="9" rx="4.5" fill="#221e33"/>
+      <rect x="336" y="316" width="52" height="20" rx="10" fill="#1e1a2e" stroke="#332c4a"/>
+      <text x="348" y="330" font-family="ui-monospace, monospace" font-size="9" fill="#8f86b3">APK</text>
+    </g>
+
+    <g>
+      <rect x="450" y="292" width="300" height="168" rx="16" fill="#12101b" stroke="#2b2640"/>
+      <rect x="474" y="316" width="40" height="40" rx="11" fill="#0f2f3a"/>
+      <rect x="484" y="328" width="20" height="18" rx="3" fill="none" stroke="#22d3ee" stroke-width="2"/>
+      <line x1="484" y1="334" x2="504" y2="334" stroke="#22d3ee" stroke-width="2"/>
+      <path d="m490 340 2 2 4-4" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="474" y="388" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#e9e6f5">Attendance Monitor</text>
+      <rect x="474" y="402" width="170" height="9" rx="4.5" fill="#2b2640"/>
+      <rect x="474" y="420" width="130" height="9" rx="4.5" fill="#221e33"/>
+      <rect x="674" y="316" width="52" height="20" rx="10" fill="#1e1a2e" stroke="#332c4a"/>
+      <text x="686" y="330" font-family="ui-monospace, monospace" font-size="9" fill="#8f86b3">APK</text>
+    </g>
+
+    <g>
+      <rect x="788" y="292" width="300" height="168" rx="16" fill="#12101b" stroke="#2b2640"/>
+      <rect x="812" y="316" width="40" height="40" rx="11" fill="#1d2440"/>
+      <rect x="821" y="326" width="22" height="18" rx="3" fill="none" stroke="#60a5fa" stroke-width="2"/>
+      <line x1="821" y1="333" x2="843" y2="333" stroke="#60a5fa" stroke-width="2"/>
+      <line x1="828" y1="333" x2="828" y2="344" stroke="#60a5fa" stroke-width="2"/>
+      <text x="812" y="388" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#e9e6f5">Portfolio</text>
+      <rect x="812" y="402" width="170" height="9" rx="4.5" fill="#2b2640"/>
+      <rect x="812" y="420" width="130" height="9" rx="4.5" fill="#221e33"/>
+      <rect x="1012" y="316" width="52" height="20" rx="10" fill="#1e1a2e" stroke="#332c4a"/>
+      <text x="1024" y="330" font-family="ui-monospace, monospace" font-size="9" fill="#8f86b3">SITE</text>
+    </g>
+
+    <g>
+      <rect x="112" y="484" width="300" height="168" rx="16" fill="#12101b" stroke="#2b2640" stroke-dasharray="6 6"/>
+      <circle cx="262" cy="552" r="18" fill="#1b1729" stroke="#332c4a"/>
+      <line x1="262" y1="544" x2="262" y2="560" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+      <line x1="254" y1="552" x2="270" y2="552" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+      <text x="262" y="600" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" fill="#8f86b3">More coming soon</text>
+    </g>
+
+    <rect x="450" y="484" width="638" height="168" rx="16" fill="#100e19" stroke="#2b2640"/>
+    <text x="478" y="524" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="600" fill="#e9e6f5">Everything in one place</text>
+    <rect x="478" y="540" width="420" height="9" rx="4.5" fill="#2b2640"/>
+    <rect x="478" y="558" width="360" height="9" rx="4.5" fill="#221e33"/>
+    <rect x="478" y="592" width="132" height="34" rx="17" fill="url(#accent)"/>
+    <text x="505" y="614" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" fill="#0b0a11">Explore apps</text>
+    <rect x="626" y="592" width="120" height="34" rx="17" fill="#1b1729" stroke="#332c4a"/>
+    <text x="650" y="614" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#b7b0d0">About</text>
+  </g>
+</svg>
